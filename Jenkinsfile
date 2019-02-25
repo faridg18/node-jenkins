@@ -11,12 +11,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install && npm run serve'
+                sh 'npm install'
             }
         }
         stage('Test') { 
             steps {
-                sh 'echo "testing 4"' 
+                sh 'npm run serve' 
             }
         }
     }
