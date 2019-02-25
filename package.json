@@ -1,0 +1,24 @@
+{
+  "name": "node-jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/out-tsc/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faridg18/node-jenkins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faridg18/node-jenkins/issues"
+  },
+  "homepage": "https://github.com/faridg18/node-jenkins#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
